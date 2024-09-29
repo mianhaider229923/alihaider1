@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="profile-container">
+            <img src="alihaider2.jpg" alt="Profile Photo" class="profile-photo">
+            <h1>Ali Haider</h1>
+            <p>Developer</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="web.jpg" alt="Project One Image" class="project-image">
+                <h3>Web App</h3>
+                <p>This is a brief description of Project One. It involves creating a web application with a modern UI and robust backend.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="mobile.jpg" alt="Project Two Image" class="project-image">
+                <h3>Mobile APP</h3>
+                <p>This project is focused on developing a mobile app with user-friendly features and seamless navigation.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="store.jpg" alt="Project Three Image" class="project-image">
+                <h3>E-Commerce Store</h3>
+                <p>Project Three is about building a full-stack e-commerce website with secure payment integration and scalable architecture.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+    <div class="contact-info">
+  <h2>Contact Information</h2>
+  <ul>
+    <li><strong>Address:</strong> Haddoke murike district sheikhupura</li>
+    <li><strong>Mobile Number:</strong> (+92) 3264602525</li>
+    <li><strong>Email:</strong> <a href="mailto:mianhaider229923@gmail.com">mianhaider229923@gmail.com</a></li>
+  </ul>
+</div>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:mianhaider229923@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Ali Haider</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
